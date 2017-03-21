@@ -1,0 +1,6 @@
+[0318/173741.748:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\Jarhair\Reports\Dump: O sistema não pode encontrar o caminho especificado. (0x3)
+[0318/173741.863:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0318/173741.894:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0318/191343.753:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\Jarhair\Reports\Dump: O sistema não pode encontrar o caminho especificado. (0x3)
+[0318/191343.853:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0318/191343.869:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled

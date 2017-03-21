@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <script>
+            function trocatudo(){
+                document.getElementById("butao").value = "mentira era pequena";
+            }
+            function volta(){
+                document.getElementById("butao").value = "caraizao bem grandao";
+            }  
+        </script>
+        <style>
+                        
+            .botao{
+                height: 100px;
+                width: 225px;
+                padding: 5px;
+                outline: none;
+
+            border: 1px solid white;
+            border-radius: 8px;
+
+            background-color: white ;
+            
+            font-family:"tahoma";
+            font-weight: bold;
+            color: mediumblue;
+            text-shadow: 0 1px 0 black;
+
+            box-shadow: inset 0 1px 1px #fff, 0 2px 3px #666;
+            cursor: pointer;
+            position: relative;
+            }
+
+            .botao:hover {
+            box-shadow: inset 0 2px 5px black, 0 2px 3px black;
+            color: deeppink;
+            background-color: blue;
+            }
+
+            .botao:active {
+            box-shadow: inset 0 2px 5px #fff, 0 1px 3px #666;
+            top:2px;
+            color: #fff; 
+            }
+            
+        </style>
+    </head>
+         <body>
+             <input type="button" id="butao" class="botao" onmouseover="trocatudo()" onmouseout="volta()" value="caraizao bem grandao" ></input>
+        </body>
+</html>
