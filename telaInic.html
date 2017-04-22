@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            #check{
+                display: none;
+            }
+
+            #icone{
+                cursor: pointer;
+                padding: 15px;
+                position: absolute;
+                z-index: 1;
+            }
+
+            .barra{
+                background-color: #696969;
+                height: 100%;
+                width: 300px;
+                position: absolute;
+                transition: all .2s linear;
+                margin-top: -10px;
+                margin-left: -8px;
+                
+                               
+            }
+
+            nav{
+                width: 100%;
+                position: absolute;
+                top: 60px;
+            }
+
+            nav a{
+                text-decoration: none;
+            }
+
+            .link{
+                padding: 20px;
+                font-family: Arial, sans-serif;
+                font-size: 12pt;
+                transition: all .2s linear;
+                color: white;
+                border-bottom: 2px solid blue;
+               
+                
+            }
+
+            #topo{
+                 border-top: 2px solid blue;
+            }
+            
+
+            .link:hover{
+                background-color: #828282;
+            }
+
+            #check:checked ~.barra{
+                transform: translateX(-350px)
+            }
+
+            
+        </style>
+
+    </head>
+
+    <body>
+
+        <input type="checkbox" id="check">
+        <label id="icone" for="check"><img src="icone.png"></label>
+        
+        <div class="barra">
+
+            <nav>
+                <a href=""><div class="link" id="topo">Home</div></a>
+                <a href=""><div class="link">Pedidos</div></a>
+                <a href=""><div class="link">Caixa</div></a>
+                <a href=""><div class="link">Estoque</div></a>
+                <a href=""><div class="link">Clientes</div></a>
+                <a href=""><div class="link">Relatórios</div></a>
+                <a href=""><div class="link">Vendedores</div></a>
+                <a href=""><div class="link">Preços</div></a>
+            </nav>
+
+        </div>
+    </body>
+</html>
