@@ -6,34 +6,38 @@
 <!-- botao acessar 4d7aff><!--->
     <style>
         body{
-            background-color: #333333;
+            background-color: #FFFFFF;
         }
-
         label{
-            color: white;
+            color: black;
         }
         #caixa-login{
-            background-color: #444444;
-            width: 350px;
-            height: 250px;
-            margin: 70px auto 0px;
+            background-color: #DDDDDD;
+            width: 400px;
+            height: 500px;
+            margin: 100px auto 0px;
             border-radius: 10px;
             padding: 5px;
         }
+		.div-logo{
+			margin: 15px;
+            padding: 35px;
+            font: 17px/23px sans-serif;
+		}
         .div-input{
             margin: 20px;
             padding: 5px;
-            font: 17px/23px sans-serif;
+            font: 25px/23px sans-serif;
         }
         .div-input input{
-            background-color: #333333;
+			margin-top: 5px;
+            background-color: #FFFFFF;
             border-radius: 5px;
             border: 1px solid #4d79fd;
-            width: 300px;
-            height: 25px;
+            width: 350px;
+            height: 45px;
             outline: none;
-            color: white;
-
+            color: black;
         }
         #botao input{
             background-color: #4d7aff;
@@ -42,17 +46,19 @@
             border-radius: 5px;
             float: right;
             margin-right: 24px;
-            font: 15px sans-serif;
+            font: 20px sans-serif;
             border: none;
             outline: none;
+			width: 350px;
+            height: 45px;
         }
-
         #links{
-            color: white;
-            font: 15px sans-serif;
+            color: black;
+            font: 20px sans-serif;
             margin-left: 25px;
-            width: 300px;
-            margin-top: 8px;
+			margin-right: 25px;
+            width: 350px;
+            margin-top: 35px;
         }
         #esqueci-senha{
             float: right;
@@ -65,27 +71,20 @@
             height: 130px;
             margin: -23px -7px auto -5px;
         }
-
         #cabecalho h1{
             text-align: center;
-            color: white;
+            color: black;
             font:  35px sans-serif;
             padding: 40px;
         }
-
-
-
-
-
     </style>
 </head>
 <body>
-
 <div id="principal">
-    <header id="cabecalho">
-        <h1>Nome do Sistema</h1>
-    </header>
     <div id="caixa-login">
+		<div class="div-logo">
+			<h1>Nome do Sistema</h1>
+		</div>
         <div class="div-input" id="input-email">
             <label>E-mail</label><br>
             <input type="text" id="valorEmail"><br>
@@ -94,7 +93,6 @@
             <label>Senha</label><br>
             <input type="password" id="valorSenha" >
         </div>
-
         <div id="botao">
             <input type="button" value="Acessar"><br><br>
         </div>
@@ -104,6 +102,5 @@
         </div>
     </div>
 </div>
-
 </body>
 </html>
